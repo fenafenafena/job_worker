@@ -1,0 +1,18 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build:wasm": "wasm-pack build wasm --target nodejs --out-dir ../pkg",
+    "encrypt": "node scripts/encrypt-package.cjs",
+    "start:wasm": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "javy-cli": "^3.0.1"
+  }
+}
