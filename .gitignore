@@ -1,3 +1,5 @@
 wasm/*
 scripts/*
 node_modules/*
+
+# pkg/ is committed intentionally (prebuilt WASM for public repo)

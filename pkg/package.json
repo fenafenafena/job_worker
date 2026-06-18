@@ -1,0 +1,11 @@
+{
+  "name": "worker-wasm",
+  "version": "0.1.0",
+  "files": [
+    "worker_wasm_bg.wasm",
+    "worker_wasm.js",
+    "worker_wasm.d.ts"
+  ],
+  "main": "worker_wasm.js",
+  "types": "worker_wasm.d.ts"
+}
